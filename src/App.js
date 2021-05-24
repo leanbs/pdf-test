@@ -2,11 +2,11 @@ import "./App.css";
 
 import {
   Page,
-  Text,
-  View,
+  // Text,
+  // View,
   Document,
   StyleSheet,
-  PDFViewer,
+  // PDFViewer,
   // BlobProvider,
   usePDF,
 } from "@react-pdf/renderer";
@@ -55,7 +55,7 @@ const MyDocument = ({ paperSize = "A6", awbLength = [] }) => (
 
 function App() {
   const iframeRef = useRef(null);
-  const [paperSize, setPaperSize] = useState("A6");
+  const [paperSize] = useState("A6");
   const [awbLength, setAwbLength] = useState([
     {
       productLength: 4,

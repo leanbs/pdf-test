@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 import {
-  Page,
+  // Page,
   Text,
   View,
-  Document,
-  StyleSheet,
-  PDFViewer
+  // Document,
+  // StyleSheet,
+  // PDFViewer
 } from "@react-pdf/renderer";
 import { styles } from './style';
 import ProductRow from './ProductRow';
